@@ -37,3 +37,5 @@ After this prompt, the appropriate macro formatter will follow (e.g. `#job(...)`
 This section will be reviewed by **quant engineering teams** — clarity, systems fluency, and architectural rigor are mandatory.
 
 DO NOT USE EM DASHES
+
+NEVER say that a role is NOT something, such as "not software but...". ALWAYS focus on what the projects ARE.

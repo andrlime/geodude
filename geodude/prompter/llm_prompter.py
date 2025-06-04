@@ -25,13 +25,10 @@ class LLMPrompter:
         self.system_prompt = read_file(path)
 
     def generate(self, content: str) -> str:
-        print("Generating...")
         if not hasattr(self, "system_prompt"):
             raise ValueError("You must set the system prompt before calling prompt()")
         
-        result = self.prompt(self.system_prompt, content)
-        print("Finished generating!")
-        return result
+        return self.prompt(self.system_prompt, content)
 
     def prompt(self, system_prompt: str, content: str) -> str:
         """

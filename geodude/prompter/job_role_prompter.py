@@ -40,6 +40,8 @@ class JobRolePrompter:
         files = os.listdir(template_folder)
         prompt = read_file(self.get_path(template_folder, template.get("prompt", None)))
 
+        files.sort()
+
         processed_inside = ""
         for f in files:
             if not f.endswith(".yml") and not f.endswith(".yaml"):
@@ -52,7 +54,10 @@ class JobRolePrompter:
             content_prompt = prompt + "\n\n\n# User Input\n" + inside + "\n\nPlease generate the output Typst code."
             if self.job_description is not None:
                 content_prompt += "\n\n## Job Description\nOptimise for this job:\n" + read_file(self.job_description)
+            
+            print(f"Generating: {f}")
             processed_inside += self.engine.generate(content_prompt + "\n\n")
+            print(f"Finished: {f}")
 
         return processed_inside
     

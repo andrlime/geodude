@@ -38,3 +38,5 @@ This section will be reviewed by **trading desks and quantitative researchers**.
 For these roles, be mindful what projects you choose to include.
 
 DO NOT USE EM DASHES
+
+NEVER say that a role is NOT something, such as "not software but...". ALWAYS focus on what the projects ARE.
