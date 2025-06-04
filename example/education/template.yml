@@ -1,0 +1,14 @@
+name: School Name University
+location: City, Prefecture, Country
+degrees:
+  - degree1: Masters of Degree
+    discipline: Major
+    date: Month 2024
+  - degree2: Bachelors of Degree
+    discipline: Major, Minor
+    date: Month 2023
+coursework:
+  - list
+  - the
+  - important
+  - ones

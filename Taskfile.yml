@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  compile:
+    cmds:
+      - bash build.bash
+    silent: true

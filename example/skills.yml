@@ -1,0 +1,133 @@
+skills:
+  # Languages
+  - Python
+  - C
+  - C++
+  - OCaml
+  - Rust
+  - TypeScript
+  - JavaScript
+  - Go
+  - Bash
+  - HTML/CSS
+  - Perl
+
+  # Frontend
+  - React
+  - Redux
+  - Angular
+  - TypeScript JSX
+  - frontend state management
+  - component-based design
+  - mobile-first design
+  - accessibility
+  - inclusive design
+
+  # Backend & APIs
+  - Flask
+  - FastAPI
+  - gRPC
+  - REST APIs
+  - WebSockets
+  - GraphQL
+  - API integration
+  - backend architecture
+  - stateful services
+
+  # Infrastructure & DevOps
+  - Docker
+  - Docker Compose
+  - Kubernetes
+  - AWS Lambda
+  - AWS IAM
+  - AWS ECR
+  - DigitalOcean
+  - GitHub Actions
+  - CI/CD
+  - ARM architecture
+  - container orchestration
+  - infrastructure-as-code
+  - deployment automation
+
+  # Databases & Caching
+  - PostgreSQL
+  - MongoDB
+  - Redis
+  - schema design
+  - data pipelines
+  - key deduplication
+  - caching strategies
+
+  # Distributed Systems
+  - parallelism
+  - concurrency
+  - multithreading
+  - vectorization
+  - MPI
+  - OpenMP
+  - pthreads
+  - real-time systems
+  - streaming systems
+  - message passing
+  - pub-sub
+
+  # Data & Parsing
+  - Polars
+  - CSV parsing
+  - Markdown parsing
+  - static content compilation
+  - schema validation
+  - type inference
+  - intermediate representations (IR)
+  - AST design
+  - data serialization
+
+  # Compiler & Language Tooling
+  - DSL design
+  - code generation
+  - compiler pipelines
+  - interpreter design
+  - build tooling
+  - static typing
+  - reverse engineering
+
+  # Hardware & System Integration
+  - serial communication
+  - RS-232
+  - hardware abstraction layer (HAL)
+  - lab automation
+  - instrumentation
+
+  # Security & Systems
+  - buffer overflow
+  - XSS vulnerability patching
+  - bit-level operations
+  - x86 Assembly analysis
+  - systems programming
+
+  # Cloud & Services
+  - AWS (general)
+  - S3 image upload
+  - environment variable management
+  - serverless infrastructure
+
+  # Testing & Validation
+  - fuzz testing
+  - randomized testing
+  - integration testing
+  - automated QA
+  - test data generation
+  - validation tooling
+
+  # Communication & Platforms
+  - Discord bot integration
+  - webhook delivery
+  - CLI tooling
+  - logging frameworks
+
+  # Tools & Utilities
+  - Git
+  - GitHub
+  - Slurm
+  - headless browser automation
+  - JSON/CSV transformation

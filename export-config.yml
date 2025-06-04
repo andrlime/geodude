@@ -1,0 +1,10 @@
+file_format:
+  name: Andrew Li
+  date_format: +%b%Y
+  folder_format: +%Y%m
+profile:
+  name: Andrew Li
+  email: andrewli@u.northwestern.edu
+  linkedin: https://www.linkedin.com/in/andrewli2048/
+  github: https://github.com/andrlime/
+  phone: "+1 (206) 756-7799"

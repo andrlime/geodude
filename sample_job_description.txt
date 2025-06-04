@@ -1,0 +1,41 @@
+```metadata
+company: DRW
+industry: Quantitative Finance
+```
+
+DRW is a diversified trading firm with over 3 decades of experience bringing sophisticated technology and exceptional people together to operate in markets around the world. We value autonomy and the ability to quickly pivot to capture opportunities, so we operate using our own capital and trading at our own risk.
+
+Headquartered in Chicago with offices throughout the U.S., Canada, Europe, and Asia, we trade a variety of asset classes including Fixed Income, ETFs, Equities, FX, Commodities and Energy across all major global markets. We have also leveraged our expertise and technology to expand into three non-traditional strategies: real estate, venture capital and cryptoassets.
+
+We operate with respect, curiosity and open minds. The people who thrive here share our belief that it’s not just what we do that matters–it's how we do it. DRW is a place of high expectations, integrity, innovation and a willingness to challenge consensus.
+
+A rapidly expanding global trading desk is looking for a Software Engineer to join their team in Chicago. In this role, you’ll be expected to design, development and test proprietary trading software. The firm has built up a significant set of tools and technology, which you will have access to. You will be expected to pragmatically focus on business value by leveraging our existing tools and infrastructure wherever possible.
+
+What you’ll do in this role:
+
+    Work directly with traders, developers and researchers in a tight knit team to develop infrastructure, tools, visualizations, and trading strategies.
+    Support the trading desk’s research & analysis workflows - utilizing and extending DRW’s in house data analysis infrastructure.
+
+You’ll be right at home if you have:
+
+    An entrepreneurial spirit and a desire to work directly with your software’s users.
+    Experience owning the end-to-end (frontend and backend) delivery of the solution.
+    Want to learn more than just engineering.
+    Strong communication skills and a team-oriented mentality – the most successful engineers will be those who can understand how traders think and can communicate effectively with them.
+    Experience working in the trading industry, or a similarly demanding industry, developing business critical applications.
+    No problem working within vague or changing guidelines and an ability to figure out what needs to get done.
+
+Required technical experience:
+
+    Java (at least 5 years of full stack experience writing Java servers running on Linux) OR Python (3+ years of professional software engineering experience in building and maintaining Python libraries and applications).
+    Solid foundation in engineering fundamentals.
+
+Nice to have:
+
+    Trading industry experience is preferred but not required.
+    Strong quantitative or research background.
+    Experience with TypeScript and React.
+    Experience with Kubernetes, or other cloud provider, especially from the perspective of trading firms.
+    Options experience.
+
+The annual base salary range for this position is $150,000 to $250,000, depending on the candidate’s experience, qualifications, and relevant skill set. The position is also eligible for an annual discretionary bonus.  In addition, DRW offers a comprehensive suite of employee benefits including group medical, pharmacy, dental and vision insurance, 401k (with discretionary employer match), short and long-term disability, life and AD&D insurance, health savings accounts, and flexible spending accounts.

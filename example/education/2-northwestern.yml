@@ -1,0 +1,12 @@
+name: Northwestern University
+location: Evanston, Illinois, United States of America
+degrees:
+  - degree2: Bachelors of Arts
+    discipline: Computer Science and Math
+    date: Expected June 2028
+coursework:
+  - COMP_SCI 343 Operating Systems - write code for academic kernel
+  - COMP_SCI 345 Distributed Systems - write systems in golang
+  - COMP_SCI 339 Database Systems - CMU labs in C++
+  - COMP_SCI 340 Networking Systems - Python
+  - COMP_SCI 214 Data Structures & Algorithms - ignore or combine with 336
