@@ -1,13 +1,13 @@
 templates:
-  # - name: Education
-  #   folder: ./data/education
-  #   prompt: prompt.md
+  - name: Education
+    folder: ./data/education
+    prompt: prompt.md
   - name: Experience
     folder: ./data/experiences
     prompt: prompt.md
-  # - name: Projects
-  #   folder: ./data/projects
-  #   prompt: prompt.md
+  - name: Projects
+    folder: ./data/projects
+    prompt: prompt.md
 system_prompt_folder: ./data/prompts
 core_template: main_template.typ
 skills_template: skills_template.typ
