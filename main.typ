@@ -17,29 +17,28 @@
 
 #section("Education")
 #school(
-  "Northwestern University",
-  (
-    ("Masters of Science", "Computer Science", "Expected March 2027"),
-    ("Bachelors of Arts", "Computer Science and Integrated Sciences, Minor in Chemistry", "Expected June 2026"),
-  ),
-  "Evanston, Illinois, United States of America"
+    "Northwestern University",
+    (
+        ("Masters of Science", "Computer Science", "Expected March 2027"),
+        ("Bachelors of Arts", "Computer Science and Integrated Sciences, Minor in Chemistry", "Expected June 2026"),
+    ),
+    "Evanston, IL"
 )
 
 #tags(
-  "Coursework",
-  (
-    strong("Operating Systems"),
-    strong("Distributed Systems"),
-    strong("Database Systems"),
-    strong("Networking"),
-    strong("Scalable Software Architecture (AWS)"),
-    "Algorithms",
-    "Programming Languages",
-    "Machine Learning",
-    "Accelerated Linear Algebra",
-    "Probability and Stochastic Processes",
-    "Fourier and Complex Analysis",
-  )
+    "Coursework",
+    (
+        strong("Operating Systems"),
+        strong("Distributed Systems"),
+        strong("Database Systems"),
+        strong("Networking"),
+        strong("Scalable Software Architecture (AWS)"),
+        "Algorithms",
+        "Programming Languages",
+        "Linear Algebra",
+        "Honors Probability",
+        "Fourier & Complex Analysis",
+    )
 )
 
 
@@ -52,24 +51,20 @@
             "June 2025 — August 2025",
             "Chicago, IL",
             (
-                text("Shipped high-throughput, schema-driven test data generator using " + strong("Go") + " and " + strong("Angular") + "; enabled visual schema editing, multi-format export (JSON, CSV), and arbitrarily nested structures for large-scale integration and fuzz testing of internal credit card services."),
-                text("Leveraged " + strong("goroutines") + " and " + strong("channels") + " to parallelize data pipelines for performance under load; integrated tool into " + strong("Jenkins") + " and developer workflows, automating pre-deployment validation and accelerating onboarding through documentation and UX improvements."),
+                text("Shipped high-throughput, schema-driven test data generator using " + strong("Go") + " and " + strong("Angular") + "; enabled nested schemas and multi-format outputs for scalable fuzz and integration testing."),
             )
         ),
-    )
-)#job(
-    "Capital One",
-    (
         (
             "Software Engineer Intern",
             "June 2024 — August 2024",
             "McLean, VA",
             (
-                text("Designed and shipped " + strong("Python") + " CLI utility to scan, extract, and normalize " + strong("Docker") + " container metadata across " + strong("AWS ECS") + " clusters for internal engineering teams; automated generation of standardized " + strong("SBOMs") + " by parsing " + strong("Git") + " repositories and aligning versioned dependencies across deployments."),
+                text("Designed " + strong("Python") + " CLI tool to extract and normalise " + strong("Docker") + " container metadata across distributed " + strong("AWS ECS") + " clusters, generating standardised SBOMs and integrating automated testing with " + strong("Pytest") + "."),
             )
         ),
     )
-)#job(
+)
+#job(
     "Northwestern University",
     (
         (
@@ -77,13 +72,14 @@
             "September 2023 — Present",
             "Evanston, IL",
             (
-                text("Mentored 200+ students in systems and parallel programming, guiding project design using " + strong("C") + ", " + strong("C++") + ", " + strong("Python") + ", " + strong("MPI") + ", and " + strong("OpenMP") + "."),
-                text("Debugged and optimized projects involving low-level data compression, buffer overflows, vectorization, and REST API integrations for real-world map data."),
-                text("Patched legacy XSS vulnerabilities in autograded infrastructure and assisted with migration to modernized " + strong("Slurm") + " backend for improved grading reliability."),
-            )
+                text("Mentored students to build a " + strong("Python interpreter and debugger in C/C++") + ", integrating " + strong("REST API") + " calls and OpenStreetMap data."),
+                text("Supported labs on parallel programming, x86 Assembly, bitwise operations, compression, covering " + strong("MPI") + ", " + strong("OpenMP") + ", buffer overflows."),
+                text("Found and patched cross-site-scripting security vulnerability in old " + strong("Perl") + " autograding scripts."),
+            ),
         ),
     )
-)#job(
+)
+#job(
     "Northwestern University Fintech Club",
     (
         (
@@ -91,15 +87,15 @@
             "October 2023 — Present",
             "Evanston, IL",
             (
-                text("Designed and shipped modular high-frequency trading simulation platform using " + strong("C++") + ", " + strong("Python") + ", and " + strong("Rust") + " enabling strategy teams to test execution logic on scalable synthetic tick data streams."),
-                text("Built stochastic market event simulator in " + strong("C++") + " generating configurable real-time tick-level price series, integrating with strategy wrappers via " + strong("Boost") + " interprocess channels."),
-                text("Developed distributed analytics and ingestion tools in " + strong("Python") + " leveraging " + strong("Polars") + " for large-scale orderbook data processing, supporting rapid signal iteration and debugging."),
-                text("Contributed core components of a lightweight message broker in " + strong("Rust") + ", deploying with " + strong("gRPC") + ", " + strong("Docker") + ", and " + strong("Kubernetes") + " to emulate production infra."),
-                text("Owned CLI tooling, CI/CD pipeline with " + strong("GitHub Actions") + " for ARM builds, and structured logging framework in modern " + strong("C++") + " to streamline developer workflows and enhance robustness."),
+                text("Simulated stochastic market data using Brownian noise in " + strong("C++") + " for consumption by trading algorithms, bots, and market makers."),
+                text("Implemented interprocess communication layer using " + strong("Boost IPC") + " to stream tick data between simulation and strategy modules."),
+                text("Engineered orderbook analytics pipeline in " + strong("Python") + " using " + strong("Polars") + " to enable real-time visualization and debugging."),
+                text("Contributed to backend infra for distributed strategy deployment using " + strong("Docker") + ", " + strong("gRPC") + ", and " + strong("Kubernetes") + "."),
             )
         ),
     )
-)#job(
+)
+#job(
     "Northwestern Wildhacks",
     (
         (
@@ -107,12 +103,12 @@
             "May 2023 — Present",
             "Evanston, IL",
             (
-                text("Architected and shipped full-stack platform for 350+ hackathon participants using " + strong("React TypeScript") + ", " + strong("Flask") + ", " + strong("Firebase/Firestore") + ", and " + strong("Docker Compose") + "; delivered real-time collaboration and seamless onboarding across mobile and desktop."),
-                text("Built and integrated custom QR code check-in and food distribution system, reducing manual tracking time by 30%; automated deployment and testing through " + strong("GitHub Actions") + " CI/CD for reliable live ops under event-scale load."),
+                text("Engineered " + strong("React TypeScript") + " and " + strong("Flask") + " platform using " + strong("Firebase") + "/" + strong("DigitalOcean") + " to support real-time event operations for 350+ hackathon participants. Innovated custom " + strong("QR code check-in") + " integrated with " + strong("Firestore") + " to accelerate participant tracking by 50%."),
             )
         ),
     )
-)#job(
+)
+#job(
     "Draper Laboratory",
     (
         (
@@ -120,7 +116,7 @@
             "June 2023 — August 2023",
             "Cambridge, MA",
             (
-                text("Shipped interactive CBRN data heatmap using " + strong("React") + ", " + strong("Redux") + ", and " + strong("Docker Compose") + " for government clients; implemented recursive UI components for granular source selection."),
+                text("Rendered government sensor data into heatmaps using " + strong("React, Redux, Docker Compose") + ". Complied with export regulations."),
             )
         ),
     )
@@ -132,37 +128,42 @@
     "OCaml CSV-to-TypeScript Content Compiler",
     "",
     (
-        text("Shipped content bundling system in " + strong("OCaml") + " to compile typed CSVs into build-time " + strong("TypeScript") + " modules for " + strong("React") + " apps, automating schema validation, S3 image upload, and static interface generation to eliminate manual data parsing for frontend teams."),
+        text("Shipped content bundling system in " + strong("OCaml") + " to compile typed CSVs into statically typed " + strong("TypeScript") + " modules for " + strong("React") + "; enforced schema validation and supported automatic S3 image upload to bundle static frontend content."),
     )
-)#project(
+)
+#project(
     "OCaml LLM-Powered Text Game Compiler",
     "",
     (
-        text("Engineered compiler in " + strong("OCaml") + " to parse Markdown scripts into stateful " + strong("React") + " frontends and " + strong("Flask") + " LLM backends; automated full-stack containerization with " + strong("Docker Compose") + "."),
+        text(strong("OCaml") + " compiler to transform Markdown into " + strong("React") + " with " + strong("LLM") + " prompt integration to generate LLM-powered interactive fiction."),
     )
-)#project(
+)
+#project(
     "ESP-300 Python Interface",
     "Gaynor Group, Northwestern University",
     (
-        text("Designed robust hardware abstraction layer in " + strong("Python") + " to control legacy ESP-300 translation stage via " + strong("RS-232") + ", improving automation and reducing lab software maintenance."),
+        text("Hardware abstraction layer in " + strong("Python") + " to automate decades-old RS-232-controlled optics translation stage."),
     )
-)#project(
-    "Distributed Job Aggregation Pipeline",
+)
+#project(
+    "Distributed Job Posting Aggregation Pipeline",
     "",
     (
-        text("Shipped horizontally-scalable ingestion system on " + strong("Kubernetes") + " streaming job data from 100+ sources via API, scraper, and " + strong("gRPC") + " microservices, aggregating into " + strong("PostgreSQL") + " and " + strong("Redis") + " with webhook integrations for real-time delivery and recovery."),
+        text("Distributed job ingestion platform using " + strong("Kubernetes") + ", " + strong("gRPC") + ", " + strong("Redis") + ", and " + strong("PostgreSQL") + "; horizontally scaled collectors ingest and deduplicate listings from 100+ APIs, streaming data in real time to webhook consumers."),
     )
-)#project(
+)
+#project(
     "Debate Judge App",
     "National High School Debate League of China",
     (
-        text("Engineered end-to-end tournament automation for 2500+ students per semester using " + strong("Python Flask") + ", " + strong("Rust APIs") + ", " + strong("React/Redux") + ", containerized with " + strong("Docker") + " and deployed to " + strong("AWS Lambda") + " for fully automated event operations."),
+        text("End-to-end tournament platform for 2500+ Chinese students per semester using " + strong("Python Flask") + ", " + strong("Rust") + ", " + strong("React/Redux") + " " + strong("MongoDB") + "; containerised deployment to " + strong("AWS") + " via " + strong("Docker") + " and employed serverless " + strong("AWS Lambda") + " functions for high throughput."),
     )
-)#project(
+)
+#project(
     "Clowder: Real-Time Location Sharing App",
     "WildHacks Hackathon 2023 First Prize Winner",
     (
-        text("Engineered real-time location-sharing platform using " + strong("Elixir") + " pub-sub backend (Phoenix Channels, WebSockets) and " + strong("React TypeScript") + " frontend to deliver low-latency, multi-user event-driven updates in <24 hours."),
+        text("Location-sharing platform with " + strong("Elixir") + " WebSocket pub-sub backend" + " and " + strong("React TypeScript") + " UI with event-driven updates."),
     )
 )
 
