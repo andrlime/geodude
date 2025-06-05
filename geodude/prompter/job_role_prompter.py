@@ -70,7 +70,7 @@ class JobRolePrompter:
 
         template_name = template.get("name", None)
         output = f"#section(\"{template_name}\")\n"
-        return output + self.process_wrapper(template) + "\n\n"
+        return output + self.process_wrapper(template) + "\n"
     
     def process_all_templates(self) -> str:
         output = ""
