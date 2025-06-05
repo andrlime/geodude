@@ -56,7 +56,7 @@ class JobRolePrompter:
                 content_prompt += "\n\n## Job Description\nOptimise for this job:\n" + read_file(self.job_description)
             
             print(f"Generating: {f}")
-            processed_inside += self.engine.generate(content_prompt + "\n\n")
+            processed_inside += self.engine.generate(content_prompt) + "\n"
             print(f"Finished: {f}")
 
         return processed_inside
