@@ -17,10 +17,10 @@
         level: 2
     ): it => text(
         fill: primary_color,
-        size: 10.5pt,
+        size: 12pt,
         [
             #{it.body}
-            #v(-10pt)
+            #v(-10.1pt)
             #line(length: 100%, stroke: 1pt + primary_color)
         ]
     )
@@ -34,7 +34,7 @@
 #let icon(name, label, shift: 1.5pt) = {
   box(
     baseline: shift,
-    height: 10pt,
+    height: 10.1pt,
     image("./icons/" + name + ".svg")
   )
   h(3pt)
@@ -62,7 +62,7 @@
     set align(center)
     big_header(name, rgb("#282828"))
     v(-6pt)
-    text(10pt)[
+    text(10.1pt)[
         #tabulate((
             icon("phone", phone),
             icon("email", email1),
@@ -84,12 +84,12 @@
     location,
     ..args
 ) = {
-    text(10pt)[
+    text(10.1pt)[
         #strong(name) #h(1fr) #emph(location)
     ]
     linebreak()
     for degree in degrees {
-        text(10pt)[
+        text(10.1pt)[
             #text(degree.at(0) + " in " + degree.at(1))
             #h(1fr)
             #text(degree.at(2))
@@ -102,7 +102,7 @@
     label,
     list
 ) = {
-    text(10pt, hyphenate: false)[
+    text(10.1pt, hyphenate: false)[
         #strong(label): 
         #tabulate(list, ",")
     ]
@@ -112,28 +112,28 @@
 #let position(
     position, time_period, location, bullets
 ) = {
-    text(10pt)[
-        #text(position)
+    text(10.1pt)[
+        #strong(position)
         #h(1fr)
         #emph(location)
         #h(1em)
         #text(time_period)
     ]
     linebreak()
-    text(10pt)[
+    text(10.1pt)[
         #list(
             tight: true,
             ..bullets
         )
     ]
-    v(-3pt)
+    v(-5pt)
 }
 
 #let job(
     company, positions
 ) = {
-    text(10pt)[
-        #strong(company)
+    text(10.1pt)[
+        #text(company)
     ]
     linebreak()
     for p in positions {
@@ -144,15 +144,15 @@
 #let project(
     title, client, bullets
 ) = {
-    text(10pt)[
+    text(10.1pt)[
         #strong(title) #h(1fr) #emph(client)
     ]
     linebreak()
-    text(10pt)[
+    text(10.1pt)[
         #list(
             tight: true,
             ..bullets
         )
     ]
-    v(-3pt)
+    v(-5pt)
 }
